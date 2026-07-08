@@ -13,6 +13,10 @@
  *
  * @since 1.0.0
  */
+if ( ! defined( 'ABSPATH' ) ) {
+	/** Set up WordPress environment */
+	require_once __DIR__ . '/wp-load.php';
+}
 define( 'WPINC', 'wp-includes' );
 
 /**
